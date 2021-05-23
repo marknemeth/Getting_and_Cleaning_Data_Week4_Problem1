@@ -1,0 +1,10 @@
+						
+Descriptive VarNames Components, Units
+Fast Fourier Domain	Force Decomposition	Motion Composition	Coordinate System Projection Axis	Sensor Sampling Aggregation Type,_					
+Sensor sampling performed in specified time intervals.  The data is naturally time series The time sereis data is aggregated by means and by std.s over the intervals, gravity units = g
+Natural time domain mapping of to frequency domain is accomplished under Fast Fourier Transform algorithm. Same aggregations apply when taken over frequuncy domain., angles measured in radians
+Acceleration is a linear measure. Gyro refers to motion measured, not linearly, but in angular terms as anguar velocity. When Acceleration and Angular velocity are combined as a motion measure, the second-derivative motion (accel.) is taken in combination with the first-derivative motion of velocity (angular), the motion is a third-order motion; hence, "jerk". All measures were recorded using the units indicated in the Codebook_VarList worksheet here, but then normalized to be bounded within the [-1,1] interval.	, acceletration measured in g equivalents.
+						
+						
+			
+						
