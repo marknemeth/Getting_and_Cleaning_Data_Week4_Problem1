@@ -160,3 +160,4 @@ tidyset<-tidyset_noNA
 write.csv(tidyset,"./data/UCI HAR Dataset/tidyset.csv")
 write.csv(summary(tidyset),"./data/UCI HAR Dataset/summary_tidyset.csv")
 write.csv(summary(as.factor(tidyset["activity"])),"./data/UCI HAR Dataset/summary_tidyset_activityConfirm.csv")
+write.table(tidyset,"./data/UCI HAR Dataset/tidyset.txt", row.name=FALSE)
